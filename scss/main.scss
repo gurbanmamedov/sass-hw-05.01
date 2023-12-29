@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+
+
+.latest-work-section {
+  width: 100%;
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 15%,
+    rgba(227, 35, 61, 1) 52%,
+    rgba(253, 29, 29, 1) 62%,
+    rgba(252, 176, 69, 1) 91%
+  );
+}
+
+.latest-work {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: #F3F3F3;
+  padding: 20px;
+
+  &__title {
+    margin-bottom: 40px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 42px;
+    color: #2d2d2d;
+  }
+
+  &__list {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0;
+  }
+}
+
+.cards {
+  width: 30%;
+  margin-bottom: 30px;
+  overflow: hidden;
+  border-radius: 10px;
+  background-color: #fff;
+  padding: 10px;
+
+  &__img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  &__title-heading {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+    color: #2d2d2d;
+    margin-bottom: 10px;
+  }
+
+  &__title-description {
+    color: #2d2d2d;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+  }
+}
